@@ -71,23 +71,27 @@
 
             <Button
                 android:id="@+id/btClear"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_span="3"
                 android:layout_weight="1"
+                android:background="@drawable/roundbotclear"
                 android:text="@string/clear"
+                android:textColor="@color/dark_gray"
                 android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btDiv"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:backgroundTint="#CD7C03"
+                android:background="@drawable/roundedbutton"
                 android:text="@string/div"
-                android:textColor="#EAEAEA"
+                android:textColor="@color/white"
                 android:textSize="20sp" />
         </TableRow>
 
@@ -97,35 +101,38 @@
 
             <Button
                 android:id="@+id/bt7"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:backgroundTint="#686868"
+                android:background="@drawable/roundedgris"
                 android:text="@string/siete"
-                android:textColor="#EAEAEA"
+                android:textColor="@color/white"
                 android:textSize="20sp" />
 
             <Button
                 android:id="@+id/bt8"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:backgroundTint="#686868"
+                android:background="@drawable/roundedgris"
                 android:text="@string/ocho"
-                android:textColor="#EAEAEA"
+                android:textColor="@color/white"
                 android:textSize="20sp" />
 
             <Button
                 android:id="@+id/bt9"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:backgroundTint="#686868"
+                android:background="@drawable/roundedgris"
                 android:text="@string/nueve"
-                android:textColor="#EAEAEA"
+                android:textColor="@color/white"
                 android:textSize="20sp" />
 
             <Button
@@ -134,10 +141,11 @@
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:backgroundTint="#CD7C03"
+                android:background="@drawable/roundedbutton"
                 android:text="@string/mult"
-                android:textColor="#EAEAEA"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                style="?android:attr/buttonBarButtonStyle" />
         </TableRow>
 
         <TableRow
@@ -146,35 +154,38 @@
 
             <Button
                 android:id="@+id/bt4"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:backgroundTint="#686868"
+                android:background="@drawable/roundedgris"
                 android:text="@string/cuatro"
-                android:textColor="#EAEAEA"
+                android:textColor="@color/white"
                 android:textSize="20sp" />
 
             <Button
                 android:id="@+id/bt5"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:backgroundTint="#686868"
+                android:background="@drawable/roundedgris"
                 android:text="@string/cinco"
-                android:textColor="#EAEAEA"
+                android:textColor="@color/white"
                 android:textSize="20sp" />
 
             <Button
                 android:id="@+id/bt6"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:backgroundTint="#686868"
+                android:background="@drawable/roundedgris"
                 android:text="@string/seis"
-                android:textColor="#EAEAEA"
+                android:textColor="@color/white"
                 android:textSize="20sp" />
 
             <Button
@@ -183,10 +194,11 @@
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:backgroundTint="#CD7C03"
+                android:background="@drawable/roundedbutton"
                 android:text="@string/menos"
-                android:textColor="#EAEAEA"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                style="?android:attr/buttonBarButtonStyle" />
         </TableRow>
 
         <TableRow
@@ -195,35 +207,38 @@
 
             <Button
                 android:id="@+id/bt1"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:backgroundTint="#686868"
+                android:background="@drawable/roundedgris"
                 android:text="@string/uno"
-                android:textColor="#EAEAEA"
+                android:textColor="@color/white"
                 android:textSize="20sp" />
 
             <Button
                 android:id="@+id/bt2"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:backgroundTint="#686868"
+                android:background="@drawable/roundedgris"
                 android:text="@string/dos"
-                android:textColor="#EAEAEA"
+                android:textColor="@color/white"
                 android:textSize="20sp" />
 
             <Button
                 android:id="@+id/bt3"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:backgroundTint="#686868"
+                android:background="@drawable/roundedgris"
                 android:text="@string/tres"
-                android:textColor="#EAEAEA"
+                android:textColor="@color/white"
                 android:textSize="20sp" />
 
             <Button
@@ -232,10 +247,11 @@
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:backgroundTint="#CD7C03"
+                android:background="@drawable/roundedbutton"
                 android:text="@string/mas"
-                android:textColor="#EAEAEA"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                style="?android:attr/buttonBarButtonStyle" />
         </TableRow>
 
         <TableRow
@@ -244,37 +260,44 @@
 
             <Button
                 android:id="@+id/bt0"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
+                android:layout_marginBottom="5dp"
                 android:layout_span="2"
                 android:layout_weight="1"
-                android:backgroundTint="#686868"
+                android:background="@drawable/roundedgris"
                 android:text="@string/cero"
-                android:textColor="#EAEAEA"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="DuplicateSpeakableTextCheck" />
 
             <Button
                 android:id="@+id/btDot"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
+                android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:backgroundTint="#686868"
+                android:background="@drawable/roundedgris"
                 android:text="@string/decimal"
-                android:textColor="#EAEAEA"
-                android:textSize="20sp" />
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
 
             <Button
                 android:id="@+id/btIgu"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_span="1"
                 android:layout_weight="1"
-                android:backgroundTint="#CD7C03"
+                android:background="@drawable/roundedbutton"
                 android:text="@string/igual"
-                android:textColor="#EAEAEA"
+                android:textColor="@color/white"
                 android:textSize="20sp" />
         </TableRow>
     </TableLayout>
